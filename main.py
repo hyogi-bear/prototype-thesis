@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import librosa
-import librosa.display
+#import librosa.display
 
 scaler = pkl.load(open("dump/scaler.pkl", 'rb'))
 kpca = pkl.load(open("dump/kernel_pca.pkl", 'rb'))
